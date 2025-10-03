@@ -1,0 +1,244 @@
+/* Start of CSS code 9/29/2025 */
+
+/* Reset default margin/padding for all elements */
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+
+
+/* Entire Website Background Color */
+body
+{
+    background-color:#292a29;
+    color:white;
+    /* display:flex;
+    flex-direction:column; */
+}
+
+/* ====HEADER STYLING===== */
+.top-bar
+{
+    display:flex;
+    
+    flex: 0 0 80px;
+    align-items:center;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    background-color: rgb(43, 44, 43);
+    gap:15px;
+    height:80px;
+}
+/* Company title aligned far left */
+#title
+{
+    margin-right:1400px;
+}
+/* Welcome Message */
+#admin
+{
+    font-size:large;
+}
+/* Profile circle (with gradient) */
+#profile
+{
+    gap:10px;
+    font-size:large;
+    border-radius:50%;
+    background:linear-gradient(to left, rgb(0, 0, 0), rgb(79, 79, 79));
+    padding:8px;
+}
+
+/* =====SIDEBAR NAVIGATION===== */
+nav #dsb
+{
+    display:flex;
+    flex-direction: column;
+  /*  text-align:center;
+    align-items:center;  */
+    width:250px;
+    height:100vh;
+    justify-content:flex-start;
+    gap:10px;
+    background-color: rgb(152, 152, 152);
+ 
+    
+}
+
+.container{
+   
+     
+      background-color: rgb(65, 65, 65);
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      margin-top:20px;
+    
+}
+/* Sidebar item styles */
+#dsb .list-items
+{
+    
+    display:flex;
+    list-style-type: none;
+    font-size:18px;
+    padding:20px;
+    gap:50px;
+  
+}
+/* Hover effect for sidebar items */
+.list-items:hover
+{
+    cursor:pointer;
+    background-color:rgb(66, 65, 65);
+    color:rgb(255, 255, 255);
+    border:5px solid rgb(123, 123, 123);
+    width:200px;
+    height:50px;
+    text-align:center;
+    padding:40px;
+    align-items:center;
+}
+/* Space above Dashboard menu item */
+#dashboards
+{
+    margin-top:50px;
+}
+/* Main Content AREa */
+.top{
+    display:flex;
+    padding:20px;
+    flex-direction: row;
+    gap:50px;
+    margin-left:5px;
+   
+}
+/* Boxes color and direction */
+.alltheboxes
+{
+    flex-direction:row;
+    color: rgb(130,130,130);
+}
+/* Each Summary CARD BOX */
+.boxes
+{
+     display:flex;
+     flex-direction: column;
+     width:350px;
+     height:100px;
+     background-color: rgb(255, 255, 255);
+     border-radius:15px;
+     padding:20px;
+     box-shadow: 0px 0px 3px 0px whitesmoke;
+     padding:25px;
+     font-size:x-large;
+     text-shadow: 0px 0px 3px;
+     
+}
+
+/* Sales overview chart box */
+.newboxes
+{
+
+    display:flex;
+    flex-direction:column;
+    background-color: rgb(255, 255, 255);
+    border-radius:15px;
+    padding:20px;
+    box-shadow: 0px 0px 3px 0px whitesmoke;
+    width:950px;
+    height:300px;
+    margin-top:20px;
+    margin-left:25px;
+    padding:10px;
+}
+/* Top Products Box */
+.newboxes1
+{
+    display:flex;
+    flex-direction:column;
+    background-color: rgb(255, 255, 255);
+    border-radius:15px;
+    padding:20px;
+    box-shadow: 0px 0px 3px 0px whitesmoke;
+    width:550px;
+    height:300px;
+    margin-top:20px;
+    margin-left:25px;
+}
+/* Layout row for chart + top products */
+.alb
+{
+    display:flex;
+    flex-direction:row;
+    gap:50px;
+    
+}
+/* Placeholder chart Styling */
+#graph
+{
+    width:900px;
+    height:250px;
+    background:linear-gradient(to left, rgb(23, 23, 167), rgb(25, 136, 42));
+    align-items:center;
+    color:white;
+    border-radius:7px;
+    text-align:center;
+    justify-content:center;
+    display:flex;
+    margin-top:6px;
+
+}
+/* Recent Orders Section */
+.tbs
+{
+    display:flex;
+    flex-direction:column;
+    background-color: rgb(255, 255, 255);
+    border-radius:15px;
+    padding:50px;
+    box-shadow: 0px 0px 3px 0px whitesmoke;
+    width:1600px;
+    height:400px;
+    margin-top:60px;
+    margin-left:25px;
+}
+/* Color for Boxes */
+.Recents
+{
+    color: rgb(130,130,130);
+}
+/* ======TABLE STYLING===== */
+table
+{
+    width: 100%;
+    padding:10px;
+    padding:30px;
+    border-collapse: collapse;
+}
+    /* Header row background */
+.bottom1
+{
+    background-color:rgb(221, 220, 220);
+}
+/* Table cells */
+td{
+    padding: 15px;
+     border-bottom: 1px solid grey;
+}
+
+/* =====FOOTER====== */
+footer
+{
+
+    padding-top:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#484848;
+}
+

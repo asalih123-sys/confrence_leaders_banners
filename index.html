@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Project</title>
+    <!-- Linking external CSS file -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <!-- Header section with company name, welcome text, and profile circle -->
+    <header>
+        <div class="top-bar">
+            <h1 id="title"><strong>Cloud Easy Inc.</strong></h1>
+            <p id="admin"><strong> Welcome, Admin </strong></p>
+            <br>
+            <p id="profile"> A</p>
+        </div>
+    </header>
+    
+    <!-- Main container holds sidebar + content -->
+    <section class="container">
+
+        <!-- Sidebar navigation -->
+        <nav>
+            <ul id="dsb">
+                <li class="list-items" id="dashboards">📊 Dashboard</li>
+                <li class="list-items">📦 Products</li>
+                <li class="list-items">🛒 Orders</li>
+                <li class="list-items">🧑‍🤝‍🧑 Customers</li>
+                <li class="list-items">📈 Analytics</li>
+                <li class="list-items">⚙️ Settings</li>
+            </ul>
+        </nav>
+
+        <!-- Right side dashboard content -->
+        <section class="alltheboxes">
+
+            <!-- Summary top cards (sales, orders, customers, products) -->
+            <div class="top">
+                <div class="boxes">
+                    <h3>$246,580</h3>
+                    <p>Total Sales</p>
+                </div>
+
+                <div class="boxes">
+                    <h3>218</h3>
+                    <p>Orders</p>
+                </div>
+
+                <div class="boxes">
+                    <h3>59</h3>
+                    <p>Customers</p>
+                </div>
+
+                <div class="boxes">
+                    <h3>5</h3>
+                    <p>Products</p>
+                </div>
+            </div>
+
+            <!-- Section for charts and top products -->
+            <section class="alb">
+                <!-- Sales Overview chart placeholder -->
+                <div class="newboxes">
+                    <h3 style="font-size:x-large;"><strong>Sales Overview</strong></h3>
+                    <div id="middlebox">
+                        <div id="graph">
+                            <p>📈 Sales Chart Visualization</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Top products table -->
+                <div class="newboxes1">
+                    <h3>Top Products</h3>
+                    <table>
+                        <tr class="bottom1">
+                            <td>Product</td>
+                            <td>Sales</td>
+                        </tr>
+                        <tr class="bottom">
+                            <td>AI Service</td>
+                            <td>$92,532</td>
+                        </tr>
+                        <tr class="bottom">
+                            <td>Cloud Service</td>
+                            <td>$103,757</td>
+                        </tr>
+                        <tr class="bottom">
+                            <td>Data Storage</td>
+                            <td>$23,453</td>
+                        </tr>
+                        <tr class="bottom">
+                            <td>External Plugins</td>
+                            <td>$26,838</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Recent orders section -->
+            <section class="tbs">
+                <div class="Recents">
+                    <h2>Recent Orders</h2>
+                    <table>
+                        <section style="padding:10px;">
+                            <tr>
+                                <td>#ORD-001 <br> Sarah Lemens</td>
+                                <td style="color:rgb(17, 255, 0);">$8,546</td>
+                            </tr>
+                            <tr>
+                                <td>#ORD-002 <br> John James</td>
+                                <td style="color:rgb(21, 253, 0);">$000000</td>
+                            </tr>
+                            <tr>
+                                <td>#ORD-003 <br> Mike Maddison</td>
+                                <td style="color:rgb(4, 245, 0);">$00000</td>
+                            </tr>
+                        </section>
+                    </table>
+                </div>
+            </section>
+
+        </section>
+    </section>
+
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; CloudEasy. All Rights Reserved.</p>
+    </footer>
+</body> 
+</html>
